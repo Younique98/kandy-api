@@ -1,18 +1,28 @@
 {
-    "products": [
-      
-    ],
-    "locations": [
-      
-    ],
-    "employees": [
-      
-    ],
-    "productTypes": [
-      
-    ],
-    "customers": [
-      
-    ]
-  }
-  
+  "products": [],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Vegas North",
+      "address": "8422 Johnson Pike",
+      "squareFootage": "200 sq ft",
+      "handicapAccessible": "True"
+    },
+    {
+      "id": 2,
+      "name": "Vegas South",
+      "address": "209 Emory Drive",
+      "squareFootage": "120 sq ft",
+      "handicapAccessible": "False"
+    }
+  ],
+  "employees": [],
+  "productTypes": [],
+  "customers": [
+    {
+      "email": "younique98@gmail.com",
+      "name": "Erica Thompson",
+      "id": 1
+    }
+  ]
+}
