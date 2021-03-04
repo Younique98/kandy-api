@@ -54,7 +54,41 @@
       "handicapAccessible": "False"
     }
   ],
-  "employees": [],
+  "employees": [
+
+    {
+      "id": 1,
+      "name": "Jeremy Bakker",
+      "locationId": 2, 
+      "manager": "True",
+      "fullTime": "True",
+      "hourlyRate": 20
+    },
+    {
+      "id": 2,
+      "name": "Eeremy Bakker",
+      "locationId": 1, 
+      "manager": "False",
+      "fullTime": "True",
+      "hourlyRate": 15
+    },
+    {
+      "id": 3,
+      "name": "Feremy Bakker",
+      "locationId": 2, 
+      "manager": "False",
+      "fullTime": "False",
+      "hourlyRate": 13
+    },
+    {
+      "id": 4,
+      "name": "Neremy Bakker",
+      "locationId": 1, 
+      "manager": "True",
+      "fullTime": "False",
+      "hourlyRate": 10
+    }
+  ],
   "productTypes": [
     {
       "id": 1,
