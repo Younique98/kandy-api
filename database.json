@@ -1,5 +1,43 @@
 {
-  "products": [],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Break Your Teeth",
+      "productTypeId": 1,
+      "price": 2
+    },
+    {
+      "id": 2,
+      "productName": "I will melt",
+      "productTypeId": 3,
+      "price": 5
+    },
+    {
+      "id": 3,
+      "productName": "Chewy",
+      "productTypeId": 2,
+      "price": 6
+    },
+    {
+      "id": 4,
+      "productName": "It's a hard not life",
+      "productTypeId": 1,
+      "price": 7
+    },
+    { 
+      "id": 5,
+      "productName": "Chump",
+      "productTypeId": 2,
+      "price": 2
+    },
+    { 
+      "id": 6,
+      "productName": "Explosion Pop",
+      "productTypeId": 4,
+      "price": 2
+    }
+
+  ],
   "locations": [
     {
       "id": 1,
@@ -17,7 +55,24 @@
     }
   ],
   "employees": [],
-  "productTypes": [],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Chocolate"
+    },
+    {
+      "id": 4,
+      "type": "Sodas"
+    }
+  ],
   "customers": [
     {
       "email": "younique98@gmail.com",
