@@ -24,19 +24,50 @@
       "productTypeId": 1,
       "price": 7
     },
-    { 
+    {
       "id": 5,
       "productName": "Chump",
       "productTypeId": 2,
       "price": 2
     },
-    { 
+    {
       "id": 6,
       "productName": "Explosion Pop",
       "productTypeId": 4,
       "price": 2
+    },
+    {
+      "name": "This is a test",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 7
+    },
+    {
+      "name": "This is the second test",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 8
+    },
+    {
+      "name": "Cinnimaon Toast Crunch",
+      "price": 0,
+      "id": 9
+    },
+    {
+      "name": "Frooty Pebbles",
+      "price": 0,
+      "id": 10
+    },
+    {
+      "name": "test",
+      "price": 0,
+      "id": 11
+    },
+    {
+      "name": "test",
+      "price": 0,
+      "id": 12
     }
-
   ],
   "locations": [
     {
@@ -55,11 +86,10 @@
     }
   ],
   "employees": [
-
     {
       "id": 1,
       "name": "Jeremy Bakker",
-      "locationId": 2, 
+      "locationId": 2,
       "manager": "True",
       "fullTime": "True",
       "hourlyRate": 20
@@ -67,7 +97,7 @@
     {
       "id": 2,
       "name": "Eeremy Bakker",
-      "locationId": 1, 
+      "locationId": 1,
       "manager": "False",
       "fullTime": "True",
       "hourlyRate": 15
@@ -75,7 +105,7 @@
     {
       "id": 3,
       "name": "Feremy Bakker",
-      "locationId": 2, 
+      "locationId": 2,
       "manager": "False",
       "fullTime": "False",
       "hourlyRate": 13
@@ -83,7 +113,7 @@
     {
       "id": 4,
       "name": "Neremy Bakker",
-      "locationId": 1, 
+      "locationId": 1,
       "manager": "True",
       "fullTime": "False",
       "hourlyRate": 10
@@ -113,5 +143,63 @@
       "name": "Erica Thompson",
       "id": 1
     }
-  ]
+  ],
+  "customerCandy": [
+    {
+      "name": "cstomer",
+      "price": 0,
+      "id": 1
+    },
+    {
+      "name": "kellog",
+      "price": 0,
+      "id": 2
+    },
+    {
+      "name": "a",
+      "price": 0,
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "name": "asdf",
+      "price": 0,
+      "location": "",
+      "id": 5
+    },
+    {
+      "name": "afd",
+      "price": 0,
+      "location": "1",
+      "id": 6
+    },
+    {
+      "price": 0,
+      "id": 7
+    },
+    {
+      "price": 0,
+      "id": 8
+    },
+    {
+      "price": 0,
+      "id": 9
+    },
+    {
+      "price": 0,
+      "id": 10
+    },
+    {
+      "id": 11
+    },
+    {
+      "id": 12
+    },
+    {
+      "id": 13
+    }
+  ],
+  "customerGroceryList": []
 }
